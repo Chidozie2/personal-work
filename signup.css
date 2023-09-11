@@ -1,0 +1,72 @@
+* {
+  margin: o;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0 20px;
+  margin: 0 auto;
+  background-color: rgba(9, 38, 77, 0.959);
+}
+body header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+  background-color: rgb(16, 24, 63);
+  padding: 0 0px;
+}
+body header nav {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+body header nav .link-nav {
+  margin-right: 35px;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 22.5px;
+  font-weight: 600;
+  color: #000;
+}
+body header nav .nav-btn {
+  text-decoration: none;
+}
+body main form {
+  border: 1px solid black;
+  font-weight: 800;
+  -webkit-text-decoration: rgba(62, 134, 197, 0.507);
+          text-decoration: rgba(62, 134, 197, 0.507);
+  size: 50%;
+}
+body main form .Fnames {
+  border: 1px solid green;
+  padding: 10px;
+  font-weight: 600;
+}
+body main form .Lnames {
+  border: 1px solid green;
+  padding: 10px;
+  font-weight: 600;
+}
+body main form .date {
+  border: 1px solid green;
+  padding: 10px;
+  font-weight: 600;
+}
+body main form .gen {
+  border: 1px solid green;
+  padding: 10px;
+  font-weight: 600;
+}
+body main form .password {
+  border: 1px solid green;
+  padding: 10px;
+  font-weight: 600;
+}
+body main form .sign {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid blue;
+}/*# sourceMappingURL=signup.css.map */

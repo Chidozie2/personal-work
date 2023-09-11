@@ -1,0 +1,30 @@
+* {
+  margin: o;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0 110px;
+  margin: 0 auto;
+  background-color: white;
+  color: rgb(4, 14, 58);
+  background-image: -webkit-cross-fade(, 0.5);
+  background-image: cross-fade();
+}
+body .hero-1 {
+  border: 1px solid red;
+}
+body .navlink-1 {
+  border: 1px solid red;
+  display: flex;
+}
+body .starter {
+  border: 1px solid rgb(0, 41, 128);
+}
+body .future {
+  border: 1px solid rgb(0, 41, 128);
+}
+body .junior {
+  border: 1px solid rgb(0, 41, 128);
+}/*# sourceMappingURL=welcome.css.map */

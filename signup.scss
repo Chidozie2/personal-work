@@ -1,0 +1,82 @@
+* {
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    padding: 0 20px;
+    margin: 0 auto;
+    background-color:rgba(9, 38, 77, 0.959) ;
+
+   header {
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1440px;
+        background-color: rgb(16, 24, 63);
+        padding: 0 0px;
+    
+        nav{
+          width: 900px;
+          display: flex;
+          justify-content: space-between;
+
+          .link-nav{
+            margin-right: 35px;
+                text-decoration: none;
+                font-size: 15px;
+                line-height: 22.5px;
+                font-weight: 600;
+                color: #000;
+                ;
+          }
+          .nav-btn{
+            text-decoration: none;
+           
+          }
+        }
+   }
+main{
+  form{
+    border: 1px solid black;
+    font-weight: 800;
+    text-decoration: rgba(62, 134, 197, 0.507);
+    size: 50%;
+
+    // display: block;
+    // justify-content: space-between;
+
+   .Fnames{
+    border: 1px solid green;
+    padding: 10px;
+    font-weight: 600;
+    
+   }
+   .Lnames{
+    border: 1px solid green;
+    padding: 10px;
+    font-weight: 600;
+   }
+   .date{
+    border: 1px solid green;
+    padding: 10px;
+    font-weight: 600;
+   }
+   .gen{
+    border: 1px solid green;
+    padding: 10px;
+    font-weight: 600; 
+   }
+   .password{
+    border: 1px solid green;
+    padding: 10px;
+    font-weight: 600;
+   }
+   .sign{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid blue;
+   }
+  }
+}
+  }
